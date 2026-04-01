@@ -14,3 +14,5 @@ COPY package.json ./
 
 EXPOSE 8443
 CMD ["node", "dist/index.js", "/app/config.yaml"]
+
+
